@@ -1,0 +1,24 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="36" fill="#1a0a2e"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect width="180" height="180" rx="36" fill="url(#glow)"/>
+  <!-- Glowing neon hand icon -->
+  <!-- Palm -->
+  <path d="M90 130 C72 130 58 116 58 98 L58 72 C58 68 61 65 65 65 C69 65 72 68 72 72 L72 60 C72 56 75 53 79 53 C83 53 86 56 86 60 L86 58 C86 54 89 51 93 51 C97 51 100 54 100 58 L100 60 C100 56 103 53 107 53 C111 53 114 56 114 60 L114 88 L118 80 C120 77 124 76 127 78 C130 80 131 84 129 87 L114 115 C110 123 100 130 90 130 Z" fill="#7c3aed"/>
+  <!-- Neon glow behind hand -->
+  <path d="M90 130 C72 130 58 116 58 98 L58 72 C58 68 61 65 65 65 C69 65 72 68 72 72 L72 60 C72 56 75 53 79 53 C83 53 86 56 86 60 L86 58 C86 54 89 51 93 51 C97 51 100 54 100 58 L100 60 C100 56 103 53 107 53 C111 53 114 56 114 60 L114 88 L118 80 C120 77 124 76 127 78 C130 80 131 84 129 87 L114 115 C110 123 100 130 90 130 Z" fill="none" stroke="#c084fc" stroke-width="2.5" filter="url(#blur)"/>
+  <!-- Neon stroke trail -->
+  <path d="M68 55 Q95 35 125 62" stroke="#c084fc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M68 55 Q95 35 125 62" stroke="#e879f9" stroke-width="1.5" stroke-linecap="round" fill="none" filter="url(#blur)"/>
+  <!-- Dot at tip of trail -->
+  <circle cx="125" cy="62" r="5" fill="#e879f9"/>
+  <circle cx="125" cy="62" r="8" fill="#e879f9" opacity="0.3" filter="url(#blur)"/>
+</svg>
